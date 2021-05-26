@@ -1,6 +1,6 @@
-# Icss - Userbot
-# translater for Icss - Userbot
-# Owner ~ <@rruuurr>
+# Leo - Userbot
+# translater for Leo - Userbot
+# Owner ~ <@QHR_1>
 
 from googletrans import Translator, LANGUAGES
 
