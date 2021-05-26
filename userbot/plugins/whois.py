@@ -1,4 +1,4 @@
-# whois code for icss edit by ~ @rruuurr
+# whois code for leo edit by ~ @QHR_1
 
 import os
 
@@ -105,7 +105,7 @@ async def fetch_info(replied_user, event):
     last_name = last_name.replace("\u2060", "") if last_name else (" ")
     username = "@{}".format(username) if username else ("لايوجد معرف")
     user_bio = "لاتوجد نبذه" if not user_bio else user_bio
-    caption = "<b><i> 𓆩 𝑺𝑶𝑼𝑹𝑪𝑬 𝑰𝑪𝑺𝑺 - 𝑷𝑹𝑶 𝑫𝑨𝑻𝑨 𓆪 </i></b>\n"
+    caption = "<b><i> 𓆩 𝐒𝐎𝐔𝐑𝐂𝐄 𝐋𝐄𝐎 - 𝑷𝑹𝑶 𝑫𝑨𝑻𝑨 𓆪 </i></b>\n"
     caption += f"<b> 𓍹ⵧⵧⵧⵧⵧⵧⵧⵧⵧ𝐢𝐜𝐬𝐬ⵧⵧⵧⵧⵧⵧⵧⵧⵧ𓍻 </b>\n"
     caption += f"<b> • 🖤 | 𝑭𝑰𝑹𝑺𝑻 𝑵𝑨𝑴𝑬 𓆪</b> {first_name} {last_name}\n"
     caption += f"<b> • 🖤 | 𝑼𝑺𝑹 𓆪</b> {username}\n"
@@ -115,7 +115,7 @@ async def fetch_info(replied_user, event):
     caption += f"<b> • 🖤 | 𝑴𝒀 𝑷𝑹𝑶 𝑳𝑰𝑵𝑲 𓆪</b> "
     caption += f'<a href="tg://user?id={user_id}">{first_name}</a>'
     caption += f"<b> 𓍹ⵧⵧⵧⵧⵧⵧⵧⵧⵧ𝐢𝐜𝐬𝐬ⵧⵧⵧⵧⵧⵧⵧⵧⵧ𓍻 </b>\n"
-    caption += f"<b> 𓆩 𝙎𝙊𝙐𝙍𝘾𝞝</b> 𝘿𝙀𝙑 - @rruuurr 𓆪 "
+    caption += f"<b> 𓆩 𝙎𝙊𝙐𝙍𝘾𝞝</b> 𝘿𝙀𝙑 - @QHR_1 𓆪 "
     return photo, caption
 
 
