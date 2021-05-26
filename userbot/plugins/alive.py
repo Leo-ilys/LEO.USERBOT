@@ -1,6 +1,6 @@
 alv = (
 """
-**©icss - @rruuurr
+**©Leo - @QHR_1 
   - Plugin Alive** 
   - **Commend:** `.السورس`
   - **Function:** لعرض معلومات السورس
@@ -15,9 +15,9 @@ from resources.strings import *
 from . import ALIVE_NAME, StartTime, get_readable_time, icsv, mention
 from . import reply_id as rd
 
-DEFAULTUSER = ALIVE_NAME or "ICSS"
-ICSS_IMG = Config.ALIVE_PIC or "https://telegra.ph/file/5fcea28dcee7119e3aac8.jpg"
-ICSS_TEXT = Config.CUSTOM_ALIVE_TEXT or "𓆩 𝑾𝑬𝑳𝑪𝑶𝑴𝑬 𝑻𝑶 𝑺𝑶𝑼𝑹𝑪𝑬 𝑰𝑪𝑺𝑺 𓆪"
+DEFAULTUSER = ALIVE_NAME or "L E O"
+ICSS_IMG = Config.ALIVE_PIC or "https://telegra.ph/file/f268e0439e5084706deda.jpg"
+ICSS_TEXT = Config.CUSTOM_ALIVE_TEXT or "𓆩 𝐖𝐄𝐋𝐂𝐎𝐌𝐄 𝐓𝐎 𝐒𝐎𝐔𝐑𝐂𝐄 𝐋𝐄𝐎 𓆪"
 ICSEM = Config.CUSTOM_ALIVE_EMOJI or "  ⌔∮ "
 
 
@@ -34,12 +34,11 @@ async def ica(icss):
         ics_c += f"𓍹ⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧ𓍻 \n"
         ics_c += f"**{ICSEM} قاعدة البيانات ↫** `{check_sgnirts}`\n"
         ics_c += f"**{ICSEM} اصدار التليثون  ↫** `{version.__version__}\n`"
-        ics_c += f"**{ICSEM} اصدار اڪسس ↫** `{icsv}`\n"
+        ics_c += f"**{ICSEM} اصدار ليو ↫** `{icsv}`\n"
         ics_c += f"**{ICSEM} اصدار البايثون ↫** `{python_version()}\n`"
         #        ics_c += f"**{ICSEM} مدة التشغيل ↫** `{icsupt}\n`"
         ics_c += f"**{ICSEM} المستخدم ↫** {mention}\n"
-        ics_c += f"**{ICSEM} مطور السورس ↫** [اضغط هنا](t.me/rruuurr) 𓆰.\n"
-        ics_c += f"**{ICSEM} قناة السورس ↫** [اضغط هنا](t.me/iqthon) 𓆰.\n"
+        ics_c += f"**{ICSEM} مطور السورس ↫** [اضغط هنا](t.me/QHR_1) 𓆰.\n"
         ics_c += f"𓍹ⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧ𓍻\n"
         await icss.client.send_file(
             icss.chat_id, ICSS_IMG, caption=ics_c, reply_to=ics_id
@@ -51,7 +50,7 @@ async def ica(icss):
             f"**{ICSS_TEXT}**\n\n"
             f"**{ICSEM} قاعدة البيانات ↫**  `{check_sgnirts}`\n"
             f"**{ICSEM} اصدار التليثون  ↫** `{version.__version__}\n`"
-            f"**{ICSEM} اصدار اڪسس ↫** `{icsv}`\n"
+            f"**{ICSEM} اصدار ليو ↫** `{icsv}`\n"
             f"**{ICSEM} اصدار البايثون  ↫** `{python_version()}\n`"
             f"**{ICSEM} مدة التشغيل ↫** `{icsupt}\n`"
             f"**{ICSEM} المستخدم ↫** {mention}\n",
