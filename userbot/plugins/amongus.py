@@ -1,7 +1,7 @@
 """
 Created by @Jisan7509
 Credit @Infinity20998
-edit by @rruuurr
+edit by @QHR_1
 Userbot plugin fot icss
 """
 
@@ -10,7 +10,7 @@ import asyncio
 
 from . import ALIVE_NAME
 
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "icss"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "leo"
 
 
 @bot.on(admin_cmd(pattern="امبوستر(|n) (.*)", outgoing=True))
