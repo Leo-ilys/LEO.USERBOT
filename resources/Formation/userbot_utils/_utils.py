@@ -1,5 +1,5 @@
-#   Icss - Userbot
-#   Icss - Utils
+#   Leo - Userbot
+#   Leo - Utils
 
 import asyncio
 import datetime
@@ -335,7 +335,7 @@ def errors_handler(func):
             ftext += "\nwe respect your privacy,"
             ftext += "\nyou may not report this error if you've"
             ftext += "\nany confidential data here, no one will see your data\n\n"
-            ftext += "--------BEGIN ICSS TRACEBACK LOG--------"
+            ftext += "--------BEGIN LEO TRACEBACK LOG--------"
             ftext += "\nDate: " + date
             ftext += "\nGroup ID: " + str(errors.chat_id)
             ftext += "\nSender ID: " + str(errors.sender_id)
@@ -346,7 +346,7 @@ def errors_handler(func):
             ftext += "\n\nError text:\n"
             ftext += str(sys.exc_info()[1])
             new = {"error": str(sys.exc_info()[1]), "date": datetime.datetime.now()}
-            ftext += "\n\n--------END ICSS TRACEBACK LOG--------"
+            ftext += "\n\n--------END LEO TRACEBACK LOG--------"
 
             command = 'git log --pretty=format:"%an: %s" -5'
 
@@ -361,8 +361,8 @@ def errors_handler(func):
             from .helpers.utils import _format
 
             pastelink = _format.paste_text(ftext)
-            text = "𓆩 𝑺𝑶𝑼𝑹𝑪𝑬 𝑰𝑪𝑺𝑺 𝑬𝑹𝑹𝑶𝑹 𝑹𝑬𝑷𝑶𝑹𝑻 𓆪\n𓍹ⵧⵧⵧⵧⵧⵧⵧⵧⵧ𝐢𝐜𝐬𝐬ⵧⵧⵧⵧⵧⵧⵧⵧⵧ𓍻\n\n"
-            link = "[مطور اكسس](https://t.me/rruuurr)"
+            text = "𓆩 𝐒𝐎𝐔𝐑𝐂𝐄 𝐋𝐄𝐎 𝑬𝑹𝑹𝑶𝑹 𝑹𝑬𝑷𝑶𝑹𝑻 𓆪\n𓍹ⵧⵧⵧⵧⵧⵧⵧⵧⵧ𝐐𝐇𝐑ⵧⵧⵧⵧⵧⵧⵧⵧⵧ𓍻\n\n"
+            link = "[مطور ليو](https://t.me/QHR_1)"
             text += "- إذا كنت تريد أن تتمكن من الإبلاغ عن المشكله"
             text += f"- فقط قم بتوجيه هذا الرساله الى {link}.\n"
             text += "- لا يوجد شيء مسجل باستثناء حقيقة الخطأ والتاريخ\n\n"
@@ -820,4 +820,4 @@ def load_asstpm(shortname):
         print('%s'% pmt + shortname)
 
 # ==============
-# Icss - Userbot: Utils end
+# Leo - Userbot: Utils end
