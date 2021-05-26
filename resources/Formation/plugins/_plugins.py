@@ -1,4 +1,4 @@
-# Icss - UserBot
+# Leo - UserBot
 # format for plugins
 
 import math
@@ -20,7 +20,7 @@ from userbot.Config import Config
 from userbot.helpers import *
 from userbot.helpers import _format, _icsstools, _icssutils
 
-# =================== Owner - Kimo ===================
+# =================== Owner - Leo ===================
 
 USERID = bot.uid if Config.OWNER_ID == 0 else Config.OWNER_ID
 ALIVE_NAME = Config.ALIVE_NAME
@@ -31,7 +31,7 @@ BOT_USERNAME = Config.TG_BOT_USERNAME
 ICSBOT = Config.TG_BOT_USERNAME
 ICSB = Config.TG_BOT_USERNAME
 
-# =================== Owner - Kimo ===================
+# =================== Owner - Leo ===================
 
 # mention user
 mention = f"[{DEFAULTUSER}](tg://user?id={USERID})"
@@ -42,27 +42,27 @@ TOSHA_ID = bot.me.id
 
 # Dev tag
 tosh = ( 
-    "𓆩 𝑺𝑶𝑼𝑹𝑪𝑬 𝑰𝑪𝑺𝑺 - 𝑫𝑬𝑽𝑬𝑳𝑶𝑷𝑬𝑹 𓆪\n"
-    "𓍹ⵧⵧⵧⵧⵧⵧⵧⵧⵧ𝐢𝐜𝐬𝐬ⵧⵧⵧⵧⵧⵧⵧⵧⵧ𓍻\n"
-    "𓄂†  𝑫𝑬𝑽 𝑼𝑺𝑬𝑹 ↬ @rruuurr ༗\n"
+    "𓆩 𝐋𝐄𝐎𝐔𝐒𝐄𝐑𝐁𝐎𝐓 - 𝑫𝑬𝑽𝑬𝑳𝑶𝑷𝑬𝑹 𓆪\n"
+    "𓍹ⵧⵧⵧⵧⵧⵧⵧⵧⵧ𝐐𝐇𝐑ⵧⵧⵧⵧⵧⵧⵧⵧⵧ𓍻\n"
+    "𓄂†  𝑫𝑬𝑽 𝑼𝑺𝑬𝑹 ↬ @QHR_1 ༗\n"
     "𓄂†  𝑫𝑬𝑽 𝑰𝑫 ↬ 1588663614 ༗\n"
-    "𓍹ⵧⵧⵧⵧⵧⵧⵧⵧⵧ𝐢𝐜𝐬𝐬ⵧⵧⵧⵧⵧⵧⵧⵧⵧ𓍻"
+    "𓍹ⵧⵧⵧⵧⵧⵧⵧⵧⵧ𝐐𝐇𝐑ⵧⵧⵧⵧⵧⵧⵧⵧⵧ𓍻"
 )
 
 # Repo 
 R = (
-    "⌔∮ 𝙎𝙊𝙐𝙍𝘾𝙀 𝙄𝘾𝙎𝙎 - 𝙍𝙀𝙋𝙊 𓆪 \n"
+    "⌔∮ 𝐋𝐄𝐎𝐔𝐒𝐄𝐑𝐁𝐎𝐓 - 𝙍𝙀𝙋𝙊 𓆪 \n"
     "𓍹ⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧ𓍻\n"
-    "- 𝙎𝙊𝙐𝙍𝘾𝙀 𝘿𝙀𝙑 ⪼ [𝘾𝙇𝙄𝘾𝙆 𝙃𝙀𝙍𝙀](t.me/rruuurr) ⩫ \n"
-    "- 𝙎𝙊𝙐𝙍𝘾𝙀 𝙍𝙀𝙋𝙊 ⪼ [𝘾𝙇𝙄𝘾𝙆 𝙃𝙀𝙍𝙀](https://github.com/ANL0KE/ICSS-USERBOT) ⩫"
+    "- 𝙎𝙊𝙐𝙍𝘾𝙀 𝘿𝙀𝙑 ⪼ [𝘾𝙇𝙄𝘾𝙆 𝙃𝙀𝙍𝙀](t.me/QHR_1) ⩫ \n"
+    "- 𝙎𝙊𝙐𝙍𝘾𝙀 𝙍𝙀𝙋𝙊 ⪼ [𝘾𝙇𝙄𝘾𝙆 𝙃𝙀𝙍𝙀](https://github.com/Leo-ilys/LEO.USERBOT) ⩫"
 )
-K = "https://github.com/ANL0KE/ICSS-USERBOT"
+K = "https://github.com/Leo-ilys/LEO.USERBOT"
 
 # Alive Bot 
 TOSH = (
-       f"**⌔∮ بوت اكسس يعمل بنجاح 🖤❕**\n"
+       f"**⌔∮ بوت ليو يعمل بنجاح 🖤❕**\n"
        f"**   - اصدار التليثون :** `{version.__version__}\n`"
-       f"**   - اصدار اكسس :** `{icsv}`\n"
+       f"**   - اصدار ليو :** `{icsv}`\n"
        f"**   - البوت المستخدم :** `{ICSB}`\n"
        f"**   - اصدار البايثون :** `{python_version()}\n`"
        f"**   - المستخدم :** {mention}\n"
@@ -200,7 +200,7 @@ async def icsa():
         dyno = f"{AppHours}h {AppMinutes}m/{hours}h {minutes}m"
     except Exception as e:
         dyno = e
-    return f"**⌔∮ معلومات بوت اكسس***\
+    return f"**⌔∮ معلومات بوت ليو***\
                  \n - قاعده البيانات : {check_sgnirts}\
                   \n - سودو : {sudo}\
                   \n - مدة التشغيل : {uptime}\
