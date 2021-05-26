@@ -1,4 +1,4 @@
-#    ICSS - USERBOT
+#    LEO - USERBOT
 #    CONFIGS - VARS
 
 import os
@@ -21,9 +21,9 @@ class Config(object):
     )
     LOAD_MYBOT = os.environ.get("LOAD_MYBOT", "True")
     TOSH_START = os.environ.get("TOSH_START", None)
-    TZ = os.environ.get("TZ", "Asia/Baghdad")
+    TZ = os.environ.get("TZ", "Africa/Rabat")
     UPSTREAM_REPO = os.environ.get(
-        "UPSTREAM_REPO", "https://github.com/ANL0KE/ICSS-USERBOT.git"
+        "UPSTREAM_REPO", "https://github.com/Leo-ilys/LEO.USERBOT.git"
     )
 
     AUTONAME = os.environ.get("AUTONAME", None)
