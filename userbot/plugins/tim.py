@@ -1,6 +1,6 @@
 """
-©icss : @rruuurr
-  - Icss UpTime
+©Leo : @QHR_1
+  - Leo UpTime
   - Commend: .المده
 """
 
@@ -8,9 +8,9 @@ import time
 
 from . import ALIVE_NAME, StartTime, get_readable_time, mention, reply_id
 
-DEFULTUSER = ALIVE_NAME or "ICSSbot"
+DEFULTUSER = ALIVE_NAME or "LEObot"
 ICS_IMG = "https://telegra.ph/file/ca2467e77ffcd605cc54d.jpg"
-ICSS_TEXT = "𓆩 𝑾𝑬𝑳𝑪𝑶𝑴𝑬 𝑻𝑶 𝑺𝑶𝑼𝑹𝑪𝑬 𝑰𝑪𝑺𝑺 𓆪"
+ICSS_TEXT = "𓆩 𝑾𝑬𝑳𝑪𝑶𝑴𝑬 𝑻𝑶 𝐒𝐎𝐔𝐑𝐂𝐄 𝐋𝐄𝐎 𓆪"
 ICSEM = "**⌔∮**"
 
 
