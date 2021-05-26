@@ -1,4 +1,4 @@
-## Icss - Userbot
+## Leo - Userbot
 
 
 
@@ -8,4 +8,4 @@ This is a userbot made for telegram. I made this userbot with help of all other 
 
 
 - 💕 استمتعو به
-- Goodby ANLOKE ( [@rruuurr](https://t.me/rruuurr) )
+- Goodby LEO ( [@QHR_1](https://t.me/QHR_1) )
