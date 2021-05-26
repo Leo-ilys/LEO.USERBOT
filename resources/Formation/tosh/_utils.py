@@ -1,5 +1,4 @@
-#    ICSS - USERBOT
-#    KIMO - ANL0KE
+#    LEO - USERBOT
 
 import asyncio
 import os
