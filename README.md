@@ -1,4 +1,4 @@
-##    ICSS - USERBOT
+##    LEO - USERBOT
 
 <img align="center" src="https://raw.githubusercontent.com/ANL0KE/ICSS-USERBOT//master/userbot/extras/ex_7.jpeg" />
 
@@ -13,10 +13,10 @@
 - Get your `API_ID` and `API_HASH` from [here](https://my.telegram.org/)    
 - Get your `SESSION` from [here](https://repl.it/@ANL0KE/ICSS#main.py).
 
-[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2FANL0KE%2FICSSBACK)
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/Leo-ilys/DEPLOY.LEO)
 
 
   
 ## Dev
-   <a href="https://t.me/rruuurr"><img src="https://img.shields.io/badge/Source%20Dev%3F-here-inactive?&style=plastic?&logo=telegram" width=220px></a></p>
- - ANL0KE (kimo)
+   <a href="https://t.me/QHR_1"><img src="https://img.shields.io/badge/Source%20Dev%3F-here-inactive?&style=plastic?&logo=telegram" width=220px></a></p>
+ - QHR (leo)
