@@ -1,5 +1,5 @@
-#  ICSS - USERBOT
-#  TELE - @NIIIN2
+#  LEO - USERBOT
+#  TELE - @QHR_1
 
 from . import Devt
 
