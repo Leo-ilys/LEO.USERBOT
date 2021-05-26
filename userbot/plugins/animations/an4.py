@@ -1,4 +1,4 @@
-# animation4 for icss by: @rruuurr
+# animation4 for Leo by: @QHR_1
 
 import asyncio
 from . import ALIVE_NAME
