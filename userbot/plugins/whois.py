@@ -106,7 +106,7 @@ async def fetch_info(replied_user, event):
     username = "@{}".format(username) if username else ("لايوجد معرف")
     user_bio = "لاتوجد نبذه" if not user_bio else user_bio
     caption = "<b><i> 𓆩 𝐒𝐎𝐔𝐑𝐂𝐄 𝐋𝐄𝐎 - 𝑷𝑹𝑶 𝑫𝑨𝑻𝑨 𓆪 </i></b>\n"
-    caption += f"<b> 𓍹ⵧⵧⵧⵧⵧⵧⵧⵧⵧ𝐢𝐜𝐬𝐬ⵧⵧⵧⵧⵧⵧⵧⵧⵧ𓍻 </b>\n"
+    caption += f"<b> 𓍹ⵧⵧⵧⵧⵧⵧⵧⵧⵧ𝐐𝐇𝐑ⵧⵧⵧⵧⵧⵧⵧⵧⵧ𓍻 </b>\n"
     caption += f"<b> • 🖤 | 𝑭𝑰𝑹𝑺𝑻 𝑵𝑨𝑴𝑬 𓆪</b> {first_name} {last_name}\n"
     caption += f"<b> • 🖤 | 𝑼𝑺𝑹 𓆪</b> {username}\n"
     caption += f"<b> • 🖤 | 𝑰𝑫 𓆪</b> <code>{user_id}</code>\n"
@@ -114,7 +114,7 @@ async def fetch_info(replied_user, event):
     caption += f"<b> • 🖤 | 𝑩𝑰𝑶 ↬ </b> \n {user_bio} \n"
     caption += f"<b> • 🖤 | 𝑴𝒀 𝑷𝑹𝑶 𝑳𝑰𝑵𝑲 𓆪</b> "
     caption += f'<a href="tg://user?id={user_id}">{first_name}</a>'
-    caption += f"<b> 𓍹ⵧⵧⵧⵧⵧⵧⵧⵧⵧ𝐢𝐜𝐬𝐬ⵧⵧⵧⵧⵧⵧⵧⵧⵧ𓍻 </b>\n"
+    caption += f"<b> 𓍹ⵧⵧⵧⵧⵧⵧⵧⵧⵧ𝐐𝐇𝐑ⵧⵧⵧⵧⵧⵧⵧⵧⵧ𓍻 </b>\n"
     caption += f"<b> 𓆩 𝙎𝙊𝙐𝙍𝘾𝞝</b> 𝘿𝙀𝙑 - @QHR_1 𓆪 "
     return photo, caption
 
