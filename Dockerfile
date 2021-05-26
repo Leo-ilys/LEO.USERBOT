@@ -1,7 +1,7 @@
-FROM ANL0KE/ICSS-USERBOT:latest
+FROM Leo-ilys/LEO.USERBOT:latest
 
 # نسخ رابط السورس 
-RUN git clone https://github.com/ANL0KE/ICSS-USERBOT.git /root/userbot
+RUN git clone https://github.com/Leo-ilys/LEO.USERBOT.git /root/userbot
 # اخـراج العـمل 
 WORKDIR /root/userbot
 
@@ -10,4 +10,4 @@ RUN pip3 install -U -r resources/setup/requirements.txt
 
 ENV PATH="/home/userbot/resources/setup/bin:$PATH"
 
-CMD ["python3","-m","userbot"]
+CMD ["python3","-m","userbot"
