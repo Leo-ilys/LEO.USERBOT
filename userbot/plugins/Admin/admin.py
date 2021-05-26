@@ -1,5 +1,5 @@
-#     Icss - Userbot
-#     edit - @rruuurr
+#     Leo - Userbot
+#     edit - @QHR_1
 
 # ====================================================== #
 
@@ -39,7 +39,7 @@ from ..sql_helper.mute_sql import (
     unmute, 
 )
 # ====================================================== #
-#                     OWNER - ANL0KE
+#                     OWNER - LEO
 # ====================================================== #
 
 PP_TOO_SMOL = "⪼ **الصورة صغيرة جدًا** 𓆰."
@@ -86,7 +86,7 @@ async def set_group_photo(gpic):
     if not gpic.is_group:
         await eor(
             gpic,
-            "** ⪼ لا اعتقد ان ۿذه مجمـوعه 𓆰،**\n ⫷ [𝙎𝙊𝙐𝙍𝘾𝞝  𝙞𝘾𝙎𝙎 ](t.me/rruuurr) ⫸",
+            "** ⪼ لا اعتقد ان ۿذه مجمـوعه 𓆰،**\n ⫷ [𝐒𝐎𝐔𝐑𝐂𝐄 𝐋𝐄𝐎](t.me/QHR_1) ⫸",
         )
         return
     replymsg = await gpic.get_reply_message()
