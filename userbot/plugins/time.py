@@ -1,5 +1,5 @@
 """
-©icss : @rruuurr
+©Leo : @QHR_1
   - Icss TimeZone
   - TimeZone Commend 
   - `.الوقت`
@@ -78,7 +78,7 @@ async def time_func(tdata):
     else:
         await edit_or_reply(
             tdata,
-            f"𓆰 𝑺𝑶𝑼𝑹𝑪𝑬 𝑰𝑪𝑺𝑺 - 𝑻𝑰𝑴𝑬𝒁𝑶𝑵𝑬 𓆪 \n 𓍹ⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧ𓍻 \n⪼ الوقت  **{dt.now().strftime(t_form)}** في **{dt.now().strftime(d_form)}**",
+            f"𓆰 𝐒𝐎𝐔𝐑𝐂𝐄 𝐋𝐄𝐎 - 𝑻𝑰𝑴𝑬𝒁𝑶𝑵𝑬 𓆪 \n 𓍹ⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧ𓍻 \n⪼ الوقت  **{dt.now().strftime(t_form)}** في **{dt.now().strftime(d_form)}**",
         )
         return
     if not timezones:
@@ -127,7 +127,7 @@ async def _(event):
         return
     reply_msg_id = None
     current_time = dt.now().strftime(
-        f"⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡\n⚡ICSBOT TIMEZONE⚡\n⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡\n   {LOCATION}\n  Time: %H:%M:%S \n  Date: %d.%m.%y \n⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡"
+        f"⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡\n⚡LEOBOT TIMEZONE⚡\n⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡\n   {LOCATION}\n  Time: %H:%M:%S \n  Date: %d.%m.%y \n⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡"
     )
     input_str = event.pattern_match.group(1)
     if event.sender_id != bot.uid:
