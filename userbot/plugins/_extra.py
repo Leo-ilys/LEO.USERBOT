@@ -1,5 +1,4 @@
-# Icss - Userbot
-# kimo: 
+# Leo - Userbot
 #   - for extra thing for Userbot
 
 import random
