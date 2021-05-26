@@ -1,7 +1,7 @@
 """
 edit By: @rruuurr
 """
-#  for source icss
+#  for source leo
 
 import asyncio
 import base64
@@ -180,7 +180,7 @@ async def gablist(event):
     if event.fwd_from:
         return
     gbanned_users = gban_sql.get_all_gbanned()
-    GBANNED_LIST = "𓆰 𝑺𝑶𝑼𝑹𝑪𝑬 𝑰𝑪𝑺𝑺 - 𝑮𝑩𝑨𝑵 𝑳𝑰𝑺𝑻 𓆪\n 𓍹ⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧ𓍻\n"
+    GBANNED_LIST = "𓆰 𝐒𝐎𝐔𝐑𝐂𝐄 𝐋𝐄𝐎 - 𝑮𝑩𝑨𝑵 𝑳𝑰𝑺𝑻 𓆪\n 𓍹ⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧ𓍻\n"
     if len(gbanned_users) > 0:
         for a_user in gbanned_users:
             if a_user.reason:
