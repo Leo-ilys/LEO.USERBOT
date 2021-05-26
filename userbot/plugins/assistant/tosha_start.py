@@ -1,4 +1,4 @@
-#    Icss - UserBot
+#    Leo - UserBot
 
 import re
 from userbot.plugins.assistant import *
@@ -28,7 +28,7 @@ if not os.path.isdir(path):
 telegraph = Telegraph()
 r = telegraph.create_account(short_name=Config.TELEGRAPH_SHORT_NAME)
 auth_url = r["auth_url"]
-# =================== OWNER - ANL0KE =================== #
+# =================== OWNER - LEO =================== #
 
 # start-others
 @tgbot.on(events.NewMessage(pattern="^/start"))  # pylint: disable=oof
@@ -65,13 +65,13 @@ async def start_all(event):
                                   caption=startotherena,
                                   buttons=[
                                       [Button.inline(
-                                          "⚜️ 𝙄𝘾𝙎𝙎 - 𝙐𝙎𝙀𝙍𝘽𝙊𝙏 ⁦⚜️", data="Icss")]
+                                          "⚜️ 𝐋𝐄𝐎 - 𝐔𝐒𝐄𝐑𝐁𝐎𝐓 ⁦⚜️", data="Leo")]
                                   ])
         else:
             await event.reply(startotherena,
                                      buttons=[
                                          [Button.inline(
-                                             "⚜️ 𝙄𝘾𝙎𝙎 - 𝙐𝙎𝙀𝙍𝘽𝙊𝙏 ⁦⚜️", data="icss")]
+                                             "⚜️ 𝐋𝐄𝐎 - 𝐔𝐒𝐄𝐑𝐁𝐎𝐓 ⁦⚜️", data="Leo")]
                                      ])
 
 
@@ -140,7 +140,7 @@ async def settings(event):
     await event.reply(f"⌔∮ انا اكسس مساعد {mention}. الشخصي تستطيع الاتصال بي عن طريق هذا البوت",
                              buttons=[
                                      [Button.inline(
-                                         "⚜️ حصل على بوت اكسس بنفسك ⚜️", data="deployme")]
+                                         "⚜️ حصل على بوت ليو بنفسك ⚜️", data="deployme")]
                              ])
 
 
@@ -149,10 +149,10 @@ async def settings(event):
 async def settings(event):
     await event.edit("** ⌔∮ هنا ستجد رابط اكسس ورابط التنصيب ايضا**:",
                      buttons=[
-                         [Button.url("🔗 رابط السورس🔗", url="https://github.com/ANL0KE/ICSS-USERBOT")],
-                         [Button.url("🔗 رابط التنصيب 🔗", url="https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2FANL0KE%2FICSSBACK")],
+                         [Button.url("🔗 رابط السورس🔗", url="https://github.com/Leo-ilys/LEO.USERBOT")],
+                         [Button.url("🔗 رابط التنصيب 🔗", url="https://dashboard.heroku.com/new?template=https://github.com/Leo-ilys/DEPLOY.LEO")],
                          [Button.url("✨ الدعم ✨",
-                                     url="https://t.me/rruuurr")]
+                                     url="https://t.me/QHR_1")]
                      ])
 
 
@@ -170,7 +170,7 @@ async def settings(event):
                                          "⚜️ لتغير الايڤ وغيرها ⚜️ ⁦⁩", data="custom")]
                                  ])
     else:
-        await event.answer("انت لا تستطيع استخدام البوت احصل على بوتك من @rruuurr", alert=True)
+        await event.answer("انت لا تستطيع استخدام البوت احصل على بوتك من @QHR_1", alert=True)
 
 
 # icss zag - زغرفه اكسس
@@ -213,7 +213,7 @@ async def settings(event):
                                          "اسماء بنات 🍇", data="girlan")]
                                  ])
     else:
-        await event.answer("انت لا تستطيع استخدام البوت احصل على بوتك من @rruuurr", alert=True)
+        await event.answer("انت لا تستطيع استخدام البوت احصل على بوتك من @QHR_1", alert=True)
 
 
 # Boys zag - زغرفه اسماء الشباب
@@ -233,7 +233,7 @@ async def settings(event):
                                          "║ رجوع ║", data="icsname")]
                                  ])
     else:
-        await event.answer("انت لا تستطيع استخدام البوت احصل على بوتك من @rruuurr", alert=True)
+        await event.answer("انت لا تستطيع استخدام البوت احصل على بوتك من @QHR_1", alert=True)
 
 
 
@@ -283,7 +283,7 @@ async def settings(event):
                                          "║ رجوع ║", data="icsname")]
                                  ])
     else:
-        await event.answer("انت لا تستطيع استخدام البوت احصل على بوتك من @rruuurr", alert=True)
+        await event.answer("انت لا تستطيع استخدام البوت احصل على بوتك من @QHR_1", alert=True)
 
 
 
@@ -333,7 +333,7 @@ async def settings(event):
                                          "⫷ التالي ", data="icspio2")]
                                  ])
     else:
-        await event.answer("انت لا تستطيع استخدام البوت احصل على بوتك من @rruuurr", alert=True)
+        await event.answer("انت لا تستطيع استخدام البوت احصل على بوتك من @QHR_1", alert=True)
 
 
 
@@ -354,7 +354,7 @@ async def settings(event):
                                          "⫷ التالي", data="icspio3")]
                                  ])
     else:
-        await event.answer("انت لا تستطيع استخدام البوت احصل على بوتك من @rruuurr", alert=True)
+        await event.answer("انت لا تستطيع استخدام البوت احصل على بوتك من @QHR_1", alert=True)
 
 
 
@@ -375,7 +375,7 @@ async def settings(event):
                                          "⫷ التالي", data="icspio4")]
                                  ])
     else:
-        await event.answer("انت لا تستطيع استخدام البوت احصل على بوتك من @rruuurr", alert=True)
+        await event.answer("انت لا تستطيع استخدام البوت احصل على بوتك من @QHR_1", alert=True)
 
 
 
@@ -396,7 +396,7 @@ async def settings(event):
                                          "⫷ التالي", data="icspio5")]
                                  ])
     else:
-        await event.answer("انت لا تستطيع استخدام البوت احصل على بوتك من @rruuurr", alert=True)
+        await event.answer("انت لا تستطيع استخدام البوت احصل على بوتك من @QHR_1", alert=True)
 
 
 
@@ -417,7 +417,7 @@ async def settings(event):
                                          "⫷ التالي", data="icspio1")]
                                  ])
     else:
-        await event.answer("انت لا تستطيع استخدام البوت احصل على بوتك من @rruuurr", alert=True)
+        await event.answer("انت لا تستطيع استخدام البوت احصل على بوتك من @QHR_1", alert=True)
 
 
 # Boys zag - زغرفه اسماء الشباب
@@ -437,7 +437,7 @@ async def settings(event):
                                          "║ رجوع ║", data="icszag")]
                                  ])
     else:
-        await event.answer("انت لا تستطيع استخدام البوت احصل على بوتك من @rruuurr", alert=True)
+        await event.answer("انت لا تستطيع استخدام البوت احصل على بوتك من @QHR_1", alert=True)
 
 
 # Months - الاشهر
@@ -716,7 +716,7 @@ async def a_txt(event):
             mssg=f"** ⌔∮ تم تغير نص الايڤ من**\n  - `{old_alv}`\n** ⌔∮ الى **\n  - `{themssg}`\n"
             await xx.edit(mssg)
     else:
-        await event.answer("انت لا تستطيع استخدام البوت احصل على بوتك من @rruuurr.", alert=True)
+        await event.answer("انت لا تستطيع استخدام البوت احصل على بوتك من @QHR_1.", alert=True)
 
 @tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"alv_pic"))
            )  # pylint: disable=C0321
@@ -791,7 +791,7 @@ async def a_txt(event):
             mssg=f"**⌔∮ تم تغير رسالة الحمايه من**\n  - `{old_alv}`\n **⌔∮ الى **\n  - `{themssg}`\n"
             await xx.edit(mssg)
     else:
-        await event.answer("انت لا تستطيع استخدام البوت احصل على بوتك من @rruuurr", alert=True)
+        await event.answer("انت لا تستطيع استخدام البوت احصل على بوتك من @QHR_1", alert=True)
 
 @tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"pm_pic"))
            )  # pylint: disable=C0321
