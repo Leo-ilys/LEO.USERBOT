@@ -15,8 +15,8 @@ from . import *
 from .. import mention
 from telegraph import Telegraph, upload_file
 
-# =================== OWNER - ANL0KE =================== #
-ALIVE_NAME = Config.ALIVE_NAME if Config.ALIVE_NAME else "@rruuurr"
+# =================== OWNER - LEO =================== #
+ALIVE_NAME = Config.ALIVE_NAME if Config.ALIVE_NAME else "@QHR_1"
 CUSTOM_PMPERMIT_TEXT = Config.CUSTOM_PMPERMIT_TEXT
 LOAD_MYBOT = Config.LOAD_MYBOT
 Heroku = heroku3.from_key(Config.HEROKU_API_KEY)
@@ -88,7 +88,7 @@ async def owner(event):
                                  [Button.inline("⚜️ الاذاعه ⚜️",
                                                 data="toshbroad")],
                                  [Button.url("⚜️ الدعم ⚜️",
-                                             "https://t.me/rruuurr")]
+                                             "https://t.me/QHR_1")]
                              ])
 
 
@@ -114,7 +114,7 @@ async def logs(event):
         caption="**Heroku** Icss Logs",
         buttons=[
             [Button.url("💠 𝙑𝙄𝙀𝙒 𝙊𝙉𝙇𝙄𝙉𝙀 💠", f"{url}")],
-            [Button.url("💠 𝘾𝙍𝘼𝙎𝙃𝙀𝘿 💠", "t.me/rruuurr")]
+            [Button.url("💠 𝘾𝙍𝘼𝙎𝙃𝙀𝘿 💠", "t.me/QHR_1")]
         ])
     await asyncio.sleep(5)
     return os.remove('logs.txt')
@@ -129,7 +129,7 @@ async def settings(event):
                              "⌔∮ ليس هناك الكثير للقيام به هنا.",
                              buttons=[
                                      [Button.inline(
-                                         "⚜️ احصل على بوت اكسس بنفسك ⚜️", data="deployme")]
+                                         "⚜️ احصل على بوت ليو بنفسك ⚜️", data="deployme")]
                              ])
 
 
@@ -137,7 +137,7 @@ async def settings(event):
           )  # pylint: disable=oof
 async def settings(event):
     await event.delete()
-    await event.reply(f"⌔∮ انا اكسس مساعد {mention}. الشخصي تستطيع الاتصال بي عن طريق هذا البوت",
+    await event.reply(f"⌔∮ انا ليو مساعد {mention}. الشخصي تستطيع الاتصال بي عن طريق هذا البوت",
                              buttons=[
                                      [Button.inline(
                                          "⚜️ حصل على بوت ليو بنفسك ⚜️", data="deployme")]
@@ -147,7 +147,7 @@ async def settings(event):
 @tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"deployme"))
           )  # pylint: disable=oof
 async def settings(event):
-    await event.edit("** ⌔∮ هنا ستجد رابط اكسس ورابط التنصيب ايضا**:",
+    await event.edit("** ⌔∮ هنا ستجد رابط ليو ورابط التنصيب ايضا**:",
                      buttons=[
                          [Button.url("🔗 رابط السورس🔗", url="https://github.com/Leo-ilys/LEO.USERBOT")],
                          [Button.url("🔗 رابط التنصيب 🔗", url="https://dashboard.heroku.com/new?template=https://github.com/Leo-ilys/DEPLOY.LEO")],
@@ -173,7 +173,7 @@ async def settings(event):
         await event.answer("انت لا تستطيع استخدام البوت احصل على بوتك من @QHR_1", alert=True)
 
 
-# icss zag - زغرفه اكسس
+# icss zag - زغرفه ليو
 @tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"icszag"))
           )  # Icss - Userbot
 async def settings(event):
@@ -192,7 +192,7 @@ async def settings(event):
                                      "اسماء القنوات 🍇", data="chanlan")]
                                  ])
     else:
-        await event.answer("انت لا تستطيع استخدام البوت احصل على بوتك من @rruuurr", alert=True)
+        await event.answer("انت لا تستطيع استخدام البوت احصل على بوتك من @QHR_1", alert=True)
 
 
 
@@ -753,7 +753,7 @@ async def alv_pic(event):
         mssg=f"**⌔∮ تم تغير الصوره بنجاح انتظر قليلا **.\n"
         await xx.edit(mssg)
     else:
-        await event.answer("انت لا تستطيع استخدام البوت احصل على بوتك من @rruuurr.", alert=True)
+        await event.answer("انت لا تستطيع استخدام البوت احصل على بوتك من @QHR_1.", alert=True)
 
 @tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"pm_cus")))
 async def alv(event):
@@ -828,4 +828,4 @@ async def alv_pic(event):
         mssg=f"**⌔∮ تم تغير صوره الحمايه الخاصه بك ✨**.\n"
         await xx.edit(mssg)
     else:
-        await event.answer("انت لا تستطيع استخدام البوت احصل على بوتك من @rruuurr.", alert=True)
+        await event.answer("انت لا تستطيع استخدام البوت احصل على بوتك من @QHR_1.", alert=True)
