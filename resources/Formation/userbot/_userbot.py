@@ -21,12 +21,12 @@ icsv = "1.0.0"
 ICS_ID = ["1588663614", "1233775025"]
 
 # for print :
-usr = "ICSS USERBOT -{}".format(Tlk)
-adn = "ICSS ADMIN TOOLS -{}".format(Tlk)
-ani = "ICSS ANIMATIONS -{}".format(Tlk)
-tsh = "ICSS TOSHA -{}".format(Tlk)
-ast = "ICSS ASSISTANT -{}".format(Tlk)
-pmt = "ICSS ASSISTANT PM -{}".format(Tlk)
+usr = "LEO USERBOT -{}".format(Tlk)
+adn = "LEO ADMIN TOOLS -{}".format(Tlk)
+ani = "LEO ANIMATIONS -{}".format(Tlk)
+tsh = "LEO AYA -{}".format(Tlk)
+ast = "LEO ASSISTANT -{}".format(Tlk)
+pmt = "LEO ASSISTANT PM -{}".format(Tlk)
 
 CONSOLE_LOGGER_VERBOSE = sb(os.environ.get("CONSOLE_LOGGER_VERBOSE", "False"))
 
