@@ -1,4 +1,4 @@
-# commands for source leo by ~ @QHR_1
+# commands for SOURCE LEO by ~ @QHR_1
 
 
 import random
@@ -11,7 +11,7 @@ from telethon import events
 async def cmds(icss):
     await eor(icss, Cmds)
 
-########################  SOURCE LEO  ~ BY: @QHR_1 ########################
+########################  SOURCE LEO ~ BY: LEO (@QHR_1)  ########################
 
 
 import random
@@ -35,7 +35,7 @@ async def _(event):
                 "𓆰 𝐒𝐎𝐔𝐑𝐂𝐄 𝐋𝐄𝐎 - 𝑪𝑶𝑴𝑴𝑨𝑵𝑫𝑺 𓆪\n𓍹ⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧ𓍻\n **⌔∮ قائـمه اوامر الادمن :** \n⪼ `.حظر` \n⪼ `.الغاء حظر` \n⪼ `.تقيد` \n⪼ `.الغاء تقيد` \n⪼ `.رفع القيود` \n⪼ `.كتم` \n⪼ `.الغاء كتم` \n⪼ `.تثبيت` \n⪼ `.الغاء التثبيت` \n 𓍹ⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧ𓍻\n 𓆩 𝐒𝐎𝐔𝐑𝐂𝐄 𝐋𝐄𝐎 - [𝘿𝙀𝙑](t.me/QHR_1) 𓆪"
             )
 
-########################  SOURCE LEO ~ BY: @QHR_1  ########################
+########################  SOURCE LEO ~ BY: LEO (@QHR_1)  ########################
 
 
 import random
@@ -61,7 +61,7 @@ async def _(event):
             )
 
 
-########################  SOURCE LEO ~ BY: @QHR_1  ########################
+########################  SOURCE LEO ~ BY: LEO (@QHR_1)  ########################
 
 
 import random
@@ -87,7 +87,7 @@ async def _(event):
             )
 
 
-########################  SOURCE LEO ~ BY: @QHR_1  ########################
+########################  SOURCE LEO ~ BY: LEO (@QHR_1)  ########################
 
 
 import random
@@ -113,7 +113,7 @@ async def _(event):
             )
 
 
-########################  SOURCE LEO ~ BY: @QHR_1  ########################
+########################  SOURCE LEO ~ BY: LEO (@QHR_1)  ########################
 
 
 import random
@@ -139,7 +139,7 @@ async def _(event):
             )
 
 
-########################  SOURCE LEO ~ BY: @QHR_1  ########################
+########################  SOURCE LEO ~ BY: LEO (@QHR_1)  ########################
 
 
 import random
@@ -165,7 +165,7 @@ async def _(event):
             )
 
 
-########################  SOURCE LEO ~ BY: @QHR_1  ########################
+########################  SOURCE LEO ~ BY: LEO (@QHR_1)  ########################
 
 
 import random
@@ -191,7 +191,7 @@ async def _(event):
             )
 
 
-########################  SOURCE LEO ~ BY: @QHR_1  ########################
+########################  SOURCE LEO ~ BY: LEO (@QHR_1)  ########################
 
 
 import random
@@ -217,7 +217,7 @@ async def _(event):
             )
 
 
-########################  SOURCE LEO ~ BY: @QHR_1  ########################
+########################  SOURCE LEO ~ BY: LEO (@QHR_1)  ########################
 
 
 import random
@@ -243,7 +243,7 @@ async def _(event):
             )
 
 
-########################  SOURCE LEO ~ BY: @QHR_1  ########################
+########################  SOURCE LEO ~ BY: LEO (@QHR_1)  ########################
 
 
 import random
@@ -269,7 +269,7 @@ async def _(event):
             )
 
 
-########### for source leo by ~ @QHR_1 ###########
+########### for SOURCE LEO by ~ @QHR_1 ###########
 
 
 import random
@@ -293,7 +293,7 @@ async def _(event):
                 "𓆰 𝐒𝐎𝐔𝐑𝐂𝐄 𝐋𝐄𝐎 - 𝑪𝑶𝑴𝑴𝑨𝑵𝑫𝑺 𓆪\n𓍹ⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧ𓍻\n **⌔∮ قائـمه اوامر المجموعه :** \n⪼ `.المجموعه ` \n⪼ `.رفع مشرف ` \n⪼ `.رفع مالك ` \n⪼ `.تك ` \n⪼ `.الاحصائيات ` \n⪼ `.تنظيف الحسابات ` \n⪼ `.الاعضاء ` \n 𓍹ⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧ𓍻\n 𓆩 𝐒𝐎𝐔𝐑𝐂𝐄 𝐋𝐄𝐎 - [𝘿𝙀𝙑](t.me/QHR_1) 𓆪"
             )
 
-########################  SOURCE LEO ~ BY: @QHR_1  ########################
+########################  SOURCE LEO ~ BY: LEO (@QHR_1)  ########################
 
 
 import random
@@ -319,7 +319,7 @@ async def _(event):
             )
 
 
-########################  SOURCE LEO ~ BY: @QHR_1  ########################
+########################  SOURCE LEO ~ BY: LEO (@QHR_1)  ########################
 
 
 import random
@@ -345,7 +345,7 @@ async def _(event):
             )
 
 
-########### for source leo by ~ @QHR_1 ###########
+########### for SOURCE LEO by ~ @QHR_1 ###########
 
 
 import random
@@ -371,7 +371,7 @@ async def _(event):
             )
 
 
-########################  SOURCE LEO ~ BY: @QHR_1  ########################
+########################  SOURCE LEO ~ BY: LEO (@QHR_1)  ########################
 
 
 import random
@@ -397,7 +397,7 @@ async def _(event):
             )
 
 
-########################  SOURCE LEO ~ BY: @QHR_1  ########################
+########################  SOURCE LEO ~ BY: LEO (@QHR_1)  ########################
 
 
 import random
@@ -423,7 +423,7 @@ async def _(event):
             )
 
 
-########################  SOURCE LEO ~ BY: @QHR_1  ########################
+########################  SOURCE LEO ~ BY: LEO (@QHR_1)  ########################
 
 import random
 
@@ -448,7 +448,7 @@ async def _(event):
             )
 
 
-########### for source leo by ~ @QHR_1 ###########
+########### for SOURCE LEO by ~ @QHR_1 ###########
 
 
 import random
@@ -474,7 +474,7 @@ async def _(event):
             )
 
 
-########################  SOURCE LEO ~ BY: @QHR_1  ########################
+########################  SOURCE LEO ~ BY: LEO (@QHR_1)  ########################
 
 
 import random
@@ -500,7 +500,7 @@ async def _(event):
             )
 
 
-########################  SOURCE LEO ~ BY: @QHR_1  ########################
+########################  SOURCE LEO ~ BY: LEO (@QHR_1)  ########################
 
 
 import random
@@ -526,7 +526,7 @@ async def _(event):
             )
 
 
-########################  SOURCE LEO ~ BY: @QHR_1  ########################
+########################  SOURCE LEO ~ BY: LEO (@QHR_1)  ########################
 
 
 from telethon.tl.types import MessageEntityMentionName
@@ -598,7 +598,7 @@ async def ge(user, event):
     return user_obj
 
 
-########################  SOURCE LEO ~ BY: @QHR_1  ########################
+########################  SOURCE LEO ~ BY: LEO (@QHR_1)  ########################
 
 
 from telethon.tl.types import MessageEntityMentionName
@@ -670,7 +670,7 @@ async def ge(user, event):
     return user_obj
 
 
-########################  SOURCE LEO ~ BY: @QHR_1  ########################
+########################  SOURCE LEO ~ BY: LEO (@QHR_1)  ########################
 
 
 from telethon.tl.types import MessageEntityMentionName
@@ -700,7 +700,7 @@ async def permalink(mention):
         )
 
 
-########################  SOURCE LEO ~ BY: @QHR_1  ########################
+########################  SOURCE LEO ~ BY: LEO (@QHR_1)  ########################
 
 from telethon.tl.types import MessageEntityMentionName
 
@@ -729,7 +729,7 @@ async def permalink(mention):
         )
 
 
-########################  SOURCE LEO ~ BY: @QHR_1  ########################
+########################  SOURCE LEO ~ BY: LEO (@QHR_1)  ########################
 
 
 from telethon.tl.types import MessageEntityMentionName
@@ -759,7 +759,7 @@ async def permalink(mention):
         )
 
 
-########################  SOURCE LEO ~ BY: @QHR_1  ########################
+########################  SOURCE LEO ~ BY: LEO (@QHR_1)  ########################
 
 
 from telethon.tl.types import MessageEntityMentionName
@@ -789,7 +789,7 @@ async def permalink(mention):
         )
 
 
-########################  SOURCE LEO ~ BY: @QHR_1  ########################
+########################  SOURCE LEO ~ BY: LEO (@QHR_1)  ########################
 
 
 from telethon.tl.types import MessageEntityMentionName
@@ -861,7 +861,7 @@ async def ge(user, event):
     return user_obj
 
 
-########################  SOURCE LEO ~ BY: @QHR_1  ########################
+########################  SOURCE LEO ~ BY: LEO (@QHR_1)  ########################
 
 
 import random
@@ -947,11 +947,11 @@ async def ge(user, event):
     return user_obj
 
 
-########################  SOURCE LEO ~ BY: @QHR_1  ########################
+########################  SOURCE LEO ~ BY: LEO (@QHR_1)  ########################
 
 from . import reply_id
 
-DEV_IMG = "https://telegra.ph/file/f268e0439e5084706deda.jpg"
+DEV_IMG = "https://telegra.ph/file/b02c0afc76b7ae6cb111a.mp4"
 DEV_TEXT = "𓆩 𝐒𝐎𝐔𝐑𝐂𝐄 𝐋𝐄𝐎 - 𝑫𝑬𝑽𝑬𝑳𝑶𝑷𝑬𝑹 𓆪"
 EMOJI = "  𓄂† "
 
@@ -964,29 +964,11 @@ async def _(e):
     reply_to_id = await reply_id(e)
     if DEV_IMG:
         dev_c = f"**{DEV_TEXT}**\n"
-        dev_c += f"𓍹ⵧⵧⵧⵧⵧⵧⵧⵧⵧ𝐐𝐇𝐑ⵧⵧⵧⵧⵧⵧⵧⵧⵧ𓍻\n"
+        dev_c += f"𓍹ⵧⵧⵧⵧⵧⵧⵧⵧⵧ𝐢𝐜𝐬𝐬ⵧⵧⵧⵧⵧⵧⵧⵧⵧ𓍻\n"
         dev_c += f"**{EMOJI}** 𝑫𝑬𝑽 𝑼𝑺𝑬𝑹 ↬ @QHR_1 ༗\n"
         dev_c += f"**{EMOJI}** 𝑫𝑬𝑽 𝑰𝑫 ↬ 841064167 ༗\n"
-        dev_c += f"𓍹ⵧⵧⵧⵧⵧⵧⵧⵧⵧ𝐐𝐇𝐑ⵧⵧⵧⵧⵧⵧⵧⵧⵧ𓍻"
+        dev_c += f"𓍹ⵧⵧⵧⵧⵧⵧⵧⵧⵧ𝐢𝐜𝐬𝐬ⵧⵧⵧⵧⵧⵧⵧⵧⵧ𓍻"
         await e.client.send_file(
             e.chat_id, DEV_IMG, caption=dev_c, reply_to=reply_to_id
         )
         await e.delete()
-emkey="",
-        islast=True,
-        maxlinelength=maxlinelength - indent,
-        indent=indent,
-    )
-    return indentitems(items, indent, level=0)
-
-@icss.on(
-    icss_cmd(pattern="م24")
-)
-async def cmd(hero):
-    await eor(hero, Heroku_cmd)
-
-CMD_HELP.update(
-    {
-        "heroku": "Info for Module to Manage Heroku:**\n\n`.استخدامي`\nاستخدامي:__لعرض ساعات استخدامي الحاليه والمتبقيه.__\n\n`.set var <NEW VAR> <VALUE>`\nUsage: __add new variable or update existing value variable__\n**!!! WARNING !!!, after setting a variable the bot will restart.**\n\n`.get var or .get var <VAR>`\nUsage: __get your existing varibles, use it only on your private group!__\n**This returns all of your private information, please be cautious...**\n\n`.del var <VAR>`\nUsage: __delete existing variable__\n**!!! WARNING !!!, after deleting variable the bot will restarted**\n\n`.herokulogs`\nUsage:sends you recent 100 lines of logs in heroku"
-    }
-)
