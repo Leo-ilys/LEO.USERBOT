@@ -1,4 +1,4 @@
-# animation3 for icss edit by: @rruuurr
+# animation3 for icss edit by: @QHR_1
 
 import asyncio
 from collections import deque
