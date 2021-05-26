@@ -1,4 +1,4 @@
-# animation code for Icss - Userbot
+# animation code for Leo - Userbot
 
 import asyncio
 
