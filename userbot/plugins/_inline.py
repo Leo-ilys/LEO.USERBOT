@@ -1,5 +1,5 @@
-#    Icss - UserBot    #
-#    Owner - @rruuurr  #
+#    Leo - UserBot    #
+#    Owner - @QHR_1  #
 
 import io
 import json
@@ -28,7 +28,7 @@ if Config.TG_BOT_USERNAME is not None and tgbot is not None:
             buttons = [
                 (
                     custom.Button.inline("Stats", data="stats"),
-                    Button.url("Repo", "https://github.com/ANL0KE/ICSS-USERBOT"),
+                    Button.url("Repo", "https://github.com/Leo-ilys/LEO.USERBOT),
                 )
             ]
             if TOSH and TOSH.endswith((".jpg", ".png")):
@@ -155,7 +155,7 @@ if Config.TG_BOT_USERNAME is not None and tgbot is not None:
             buttons = paginate_help(current_page_number + 1, CMD_LIST, "helpme")
             await event.edit(buttons=buttons)
         else:
-            reply_pop_up_alert = "⌔∮ عليك الحصول على بوت اكسس للحصول عليه اذهب الى @rruuurr. "
+            reply_pop_up_alert = "⌔∮ عليك الحصول على بوت ليو للحصول عليه اذهب الى @QHR_1. "
             await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
     @tgbot.on(
@@ -171,7 +171,7 @@ if Config.TG_BOT_USERNAME is not None and tgbot is not None:
             )
             await event.edit(buttons=buttons)
         else:
-            reply_pop_up_alert = "⌔∮ عليك الحصول على بوت اكسس للحصول عليه اذهب الى @rruuurr. "
+            reply_pop_up_alert = "⌔∮ عليك الحصول على بوت ليو للحصول عليه اذهب الى @QHR_1."
             await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
     @tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"secret_(.*)")))
@@ -187,7 +187,7 @@ if Config.TG_BOT_USERNAME is not None and tgbot is not None:
                     encrypted_tcxt = message["text"]
                     reply_pop_up_alert = encrypted_tcxt
                 else:
-                    reply_pop_up_alert = "⌔∮ عليك الحصول على بوت اكسس للحصول عليه اذهب الى @rruuurr. "
+                    reply_pop_up_alert = "⌔∮ عليك الحصول على بوت ليو للحصول عليه اذهب الى @QHR_1."
             except KeyError:
                 reply_pop_up_alert = "⌔∮ هذه الرسالة لم تعد موجودة في خادم بوت"
         else:
@@ -229,7 +229,7 @@ if Config.TG_BOT_USERNAME is not None and tgbot is not None:
                         caption=plugin_name,
                     )
         else:
-            reply_pop_up_alert = "⌔∮ عليك الحصول على بوت اكسس للحصول عليه اذهب الى @rruuurr. "
+            reply_pop_up_alert = "⌔∮ عليك الحصول على بوت ليو للحصول عليه اذهب الى @QHR_1."
             await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
     @tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"close")))
@@ -237,7 +237,7 @@ if Config.TG_BOT_USERNAME is not None and tgbot is not None:
         if event.query.user_id == bot.uid:
             await event.edit("**⌔∮ تم اغلاق القائمه**")
         else:
-            reply_pop_up_alert = "⌔∮ عليك الحصول على بوت اكسس للحصول عليه اذهب الى @rruuurr. "
+            reply_pop_up_alert = "⌔∮ عليك الحصول على بوت ليو للحصول عليه اذهب الى @QHR_1."
             await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
     @tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"stats")))
