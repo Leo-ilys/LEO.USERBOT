@@ -1,5 +1,5 @@
 # Ping for assistant bot 
-# by: @rruuurr
+# by: @QHR_1
 
 import time
 from telethon import events
