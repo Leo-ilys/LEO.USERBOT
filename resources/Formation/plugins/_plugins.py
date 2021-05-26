@@ -26,7 +26,7 @@ USERID = bot.uid if Config.OWNER_ID == 0 else Config.OWNER_ID
 ALIVE_NAME = Config.ALIVE_NAME
 AUTONAME = Config.AUTONAME
 DEFAULT_BIO = Config.DEFAULT_BIO
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Icss Userbot"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Leo Userbot"
 BOT_USERNAME = Config.TG_BOT_USERNAME
 ICSBOT = Config.TG_BOT_USERNAME
 ICSB = Config.TG_BOT_USERNAME
@@ -45,7 +45,7 @@ tosh = (
     "𓆩 𝐋𝐄𝐎𝐔𝐒𝐄𝐑𝐁𝐎𝐓 - 𝑫𝑬𝑽𝑬𝑳𝑶𝑷𝑬𝑹 𓆪\n"
     "𓍹ⵧⵧⵧⵧⵧⵧⵧⵧⵧ𝐐𝐇𝐑ⵧⵧⵧⵧⵧⵧⵧⵧⵧ𓍻\n"
     "𓄂†  𝑫𝑬𝑽 𝑼𝑺𝑬𝑹 ↬ @QHR_1 ༗\n"
-    "𓄂†  𝑫𝑬𝑽 𝑰𝑫 ↬ 1588663614 ༗\n"
+    "𓄂†  𝑫𝑬𝑽 𝑰𝑫 ↬ 841064167 ༗\n"
     "𓍹ⵧⵧⵧⵧⵧⵧⵧⵧⵧ𝐐𝐇𝐑ⵧⵧⵧⵧⵧⵧⵧⵧⵧ𓍻"
 )
 
