@@ -18,7 +18,7 @@ from userbot.tosh import Tlk
 StartTime = time.time()
 icsv = "1.0.0"
 
-ICS_ID = ["1588663614", "1233775025"]
+ICS_ID = ["841064167"]
 
 # for print :
 usr = "LEO USERBOT -{}".format(Tlk)
